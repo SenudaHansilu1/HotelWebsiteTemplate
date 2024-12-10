@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+        <nav>
+            <ul>
+                <input type="search" class="search" placeholder="Search"/>
+                <button class="searchbtn">Submit</button>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#Hotel">Hotel Booking</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#faq">FAQ</a></li>
+               
+            </ul>
+
+        </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to our Hotel!</h2>
+            <p>Discover our comfortable and stylish hotel rooms!</p>
+        </section>
+        <section id="rooms">
+            <h2>Rooms</h2>
+            <div class="room">
+                <h3>Deluxe Room</h3>
+                <p>Comfortable double bed, modern bathroom, flat-screen TV.</p>
+            </div>
+            <div class="room">
+                <h3>Superior Room</h3>
+                <p>Large double bed, walk-in wardrobe, private bathroom with tub.</p>
+            </div>
+        </section>
+        <section id="reservation">
+            <h2>Reservation</h2>
+            <form>
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" name="checkin">
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" name="checkout">
+                <label for="roomtype">Room Type:</label>
+                <select id="roomtype" name="roomtype">
+                    <option value="deluxe">Deluxe Room</option>
+                    <option value="superior">Superior Room</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Contact us via email: hotel@example.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Hotel Management Website. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

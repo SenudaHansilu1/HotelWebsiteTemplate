@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   color: #333;
+   background-color: #ccc;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 90px;
+   font-size: 12px;
+   text-align: right;
+}
+
+.search{
+    font: optional;
+    font-size: 10px;
+    border-color: ;
+    
+}
+
+.search:hover{
+    border-style: none;
+}
+
+.searchbtn{
+    font: optional;
+    font-size: 10px;
+    margin-right: 80px;
+    border-radius: 20px;
+    border-style: none;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 12px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 12px;
+    text-align: right;
+     font-family;
+}
+
+.room {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
